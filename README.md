@@ -23,9 +23,10 @@ A **secure and user-friendly** note-taking application built with  **Java** , **
 1. **Clone the repository:**
 2. **install Java and Java Fx on your IDE**
 
-## Video
-** 📽️ Watch a detailed walkthrough of the project here: [YouTube Video]([https://your-video-link.com](https://www.youtube.com/watch?v=e9j6tZ7tZhk))
-**
+## 📽️ Video Walkthrough
+Watch a detailed walkthrough of the project here:  
+[![YouTube Video](https://img.shields.io/badge/YouTube-Watch-red?logo=youtube)](https://www.youtube.com/watch?v=e9j6tZ7tZhk)
+
 
 
 
