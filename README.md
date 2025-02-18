@@ -6,7 +6,8 @@ A **secure and user-friendly** note-taking application built with **Java** and *
 - 🔒 **User Authentication** (Signup/Login with password hashing)
 - ✅ **Username & Password Validation** (Ensures secure and valid credentials)
 - 📝 **Create, Edit, and Delete Notes**
--  🖼️ ✏️ **inserting images and drawing sketches**
+- 🖼️ **inserting images**
+- ✏️**Drawing sketches**
 - 📂 **File Management System**
 - 🔐 **Encryption for Secure Notes**
 - 🎨 **JavaFX UI for an Interactive Experience**
