@@ -1,6 +1,6 @@
 # 📝 Multi-User Note Application
 
-A **secure and user-friendly** note-taking application built with **Java** and **JavaFX**. This application supports multiple users, encrypted notes, and file management features.
+A **secure and user-friendly** note-taking application built with **Java** , **JavaFX** and **CSS** . This application supports multiple users, encrypted notes, and file management features.
 
 ## 🚀 Features
 - 🔒 **User Authentication** (Signup/Login with password hashing)
