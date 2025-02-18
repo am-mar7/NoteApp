@@ -25,10 +25,11 @@ public class LoginController implements Initializable {
     private Label login_Msg;
     HashMap<String,String> map ;
     HashMap<String, Integer> indices ;
+    
     public void try_Login(ActionEvent e) throws IOException {
         String userName = username_txt.getText();
         String password = Encryption.hash(password_txt.getText());
-        LinkedList<User> data = FileManager.UploadAllData();
+        LinkedList<User> data = FileManager.UploadAllData();        
         if(data.isEmpty() || data == null) {
             login_Msg.setText("There are no Users in System,Please Sign Up");
             return;
@@ -37,19 +38,21 @@ public class LoginController implements Initializable {
             login_Msg.setText("Please Enter Username and Password");
             return;
         }
-        if(map.get(userName).equals(password)){
-            // do login
+        if(map.get(userName) == null || ! map.get(userName).equals(password))
+            login_Msg.setText("Wrong User name or password");
+        else{
             FileManager.setCurrentUser((User) data.get(indices.get(userName)));
             System.out.println((User) data.get(indices.get(userName)));
             LocalController lc = new LocalController();
             lc.SwitchPage(e, "HomePage.fxml");
         }
-
     }
+    
     public void goToSignPage(ActionEvent e) throws IOException {
         LocalController lc =  new LocalController();
         lc.SwitchPage(e,"SignupScreen.fxml");
     }
+    
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         LinkedList<User> data = FileManager.UploadAllData();
