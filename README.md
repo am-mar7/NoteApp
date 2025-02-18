@@ -24,6 +24,8 @@ A **secure and user-friendly** note-taking application built with  **Java** , **
 2. **install Java and Java Fx on your IDE**
 
 ## Video
-** 📽️ Watch a detailed walkthrough of the project here: [YouTube Video](https://your-video-link.com)
+** 📽️ Watch a detailed walkthrough of the project here: [YouTube Video]([https://your-video-link.com](https://www.youtube.com/watch?v=e9j6tZ7tZhk))
 **
+
+
 
