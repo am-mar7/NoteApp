@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.noteapplication.SignUpController">
+    <children>
+      <Pane prefHeight="700.0" prefWidth="758.0" style="-fx-background-color: #2196f3;" styleClass="bodybg" stylesheets="@Design/Style1.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="-17.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/icon.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="403.0" layoutY="40.0" prefHeight="53.0" prefWidth="179.0" text="Think It" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="493.0" layoutY="93.0" text="Note It" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="582.0" layoutY="145.0" text="Own It" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+        <Pane layoutX="241.0" layoutY="6.0" prefHeight="694.0" prefWidth="440.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="6.0">
+            <children>
+                <ImageView fitHeight="50.0" fitWidth="32.0" layoutX="75.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Images/person.png" />
+                    </image>
+                </ImageView>
+                <TextField fx:id="username_txt" alignment="BOTTOM_LEFT" layoutX="81.0" layoutY="54.0" prefHeight="39.0" prefWidth="274.0" promptText="User Name" stylesheets="@Design/Style1.css">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="password_txt" alignment="BOTTOM_LEFT" layoutX="81.0" layoutY="148.0" prefHeight="44.0" prefWidth="274.0" promptText="Password" stylesheets="@Design/Style1.css">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </PasswordField>
+
+                <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="70.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Images/lock.png" />
+                    </image>
+                </ImageView>
+                <Button fx:id="SignUp_Btn" layoutX="155.0" layoutY="340.0" mnemonicParsing="false" onAction="#try_Sign" prefHeight="44.0" prefWidth="144.0" styleClass="loginBtn" stylesheets="@Design/Style1.css" text="Sign Up" textFill="#2196f3" />
+                <Label layoutX="8.0" layoutY="587.0" prefHeight="22.0" prefWidth="210.0" text="Aleady have an account" textFill="#2196f3">
+                    <font>
+                        <Font name="System Bold Italic" size="17.0" />
+                    </font>
+                </Label>
+                <Button fx:id="Login_Btn" layoutX="155.0" layoutY="628.0" mnemonicParsing="false" onAction="#goToLoginPage" prefHeight="44.0" prefWidth="144.0" styleClass="loginBtn" stylesheets="@Design/Style1.css" text="Log In" />
+            <PasswordField fx:id="confirmpassword_txt" alignment="BOTTOM_LEFT" layoutX="81.0" layoutY="243.0" prefHeight="44.0" prefWidth="274.0" promptText="Comfirm Password" stylesheets="@Design/Style1.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="40.0" fitWidth="45.0" layoutX="70.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/lock.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="Sign_Msg" layoutX="35.0" layoutY="441.0" prefHeight="26.0" prefWidth="382.0" textFill="#ff4d4f">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

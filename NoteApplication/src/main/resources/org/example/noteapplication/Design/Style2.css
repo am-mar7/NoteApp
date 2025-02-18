@@ -1,0 +1,104 @@
+/*login // sign up buttons*/
+.loginBtn{
+    -fx-background-color: #2196f3;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 25px;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 19px;
+}
+.loginBtn:hover{
+    -fx-border-radius: 25px;
+    -fx-background-color: #FFF;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: #2196f3;
+    -fx-font-size: 19px;
+    -fx-border-color: #2196f3;
+}
+.loginBtn:pressed{
+    -fx-rotate: 3px;
+}
+/*background*/
+.bodybg{
+    /*-fx-background-color: #2196f3;*/
+    -fx-background-image: url("../Images/BackGround.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.searchbox{
+    -fx-background-radius: 100px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #2196f3;
+    -fx-border-radius: 100px;
+
+}
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-background-radius: 30px;
+    -fx-font-size: 18px;
+}
+/*search Button*/
+.searchBtn{
+    -fx-background-color: rgba(33, 150, 243);
+    -fx-background-radius: 30px;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: Tahoma;
+}
+.searchBtn:hover{
+    -fx-border-radius: 30px;
+    -fx-background-color: #FFF;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+}
+.searchBtn:pressed{
+    -fx-rotate: 3px;
+}
+/*Logout Button*/
+.logoutBtn{
+    -fx-background-radius: 30px;
+    -fx-background-color: #D32F2F;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 21px;
+}
+.logoutBtn:hover{
+    -fx-font-size: 21px;
+    -fx-border-radius: 30px;
+    -fx-background-color: #FFF;
+    -fx-text-fill: #D32F2F;
+    -fx-border-color: #D32F2F;
+}
+.LogoutBtn:pressed{
+    -fx-rotate: 3px;
+}
+.addBtn{
+    -fx-border-radius: 28px;
+    -fx-border-width: 4px;
+    -fx-background-color: #FFF;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: #2196f3;
+    -fx-border-color: #2196f3;
+    -fx-font-size: 18px;
+}
+.addBtn:hover{
+    -fx-border-radius: 28px;
+    -fx-border-width: 4px;
+    -fx-border-color: #ffffff;
+    -fx-background-color: #2196f3;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-font-size: 18px;
+}
+.addBtn:pressed{
+    -fx-rotate: 3px;
+}
+.imageBtn{
+    -fx-border-radius: 28px;
+    -fx-border-color: #000000;
+    -fx-background-radius: 28px;
+    -fx-background-color: #b8b8b8;
+    -fx-text-fill: #000000;
+}
+.imageBtn:pressed{
+    -fx-rotate: #px;
+}
