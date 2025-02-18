@@ -12,7 +12,7 @@ import NotePackge.Secured_Note;
 import com.dlsc.formsfx.model.structure.Field;
 
 public abstract class FileManager{
-    public static final String baselocation = "/home/ammar/Downloads/LocalDataBase/";
+    public static final String baselocation = "LocalDataBase/";
     public static final String AllUsersDataPath = baselocation+"AllUsersData.json";
     public static final String currentUserPath =baselocation+"currUser.json";
     public static final String currentNotePath = baselocation+"currNote.json";
