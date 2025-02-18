@@ -4,7 +4,9 @@ A **secure and user-friendly** note-taking application built with **Java** and *
 
 ## 🚀 Features
 - 🔒 **User Authentication** (Signup/Login with password hashing)
+- ✅ **Username & Password Validation** (Ensures secure and valid credentials)
 - 📝 **Create, Edit, and Delete Notes**
+-  🖼️ ✏️ ** inserting images and drawing sketches**
 - 📂 **File Management System**
 - 🔐 **Encryption for Secure Notes**
 - 🎨 **JavaFX UI for an Interactive Experience**
@@ -18,7 +20,8 @@ A **secure and user-friendly** note-taking application built with **Java** and *
 ## 📥 Installation
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+2. **install Java and Java Fx on your IDE**
+
+## Video
+** Watch a detailed walkthrough of the project here: **
 
